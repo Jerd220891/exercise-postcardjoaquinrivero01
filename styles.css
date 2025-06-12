@@ -23,21 +23,17 @@ p {
 }
 .postcard-header h1 {
 	width: 400px;
+	margin: 0px;
 }
 .postcard-body {
 	display: flex;
 }
-.body-left,
-.body-right {
-	padding: 100px;
-}
-input {
-	border: 10px;
-	border-bottom: red;
+.body-left p:first-child {
+	margin-top: 0px;
 }
 .body-left,
 .body-right {
-	padding: 50px;
+	padding: blue;
 }
 input {
 	border: none;
@@ -47,6 +43,6 @@ input {
 	text-align: center;
 }
 button {
-	background-color: grey;
-	padding: 10px;
+	background-color: brown;
+	padding: blue;
 }
